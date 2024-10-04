@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: helvetica now display;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+#adi1{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 234, 207);
+
+}
+img{
+  transition: all .5s cubic-bezier(0.19, 1, 0.22, 1);
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#img1{
+left: 25%;
+}
+
+#img2{
+left: 50%;
+}
+
+#img3{
+left: 75%;
+}
+
+img:hover{
+  height: 60%;
+}
